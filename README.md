@@ -1,5 +1,5 @@
 # Text-to-Neo4j-Graph
 convert a textual document into a graph representation and store it in a Neo4j graph database
 
-git add C:\Users\aakas\OneDrive\Pictures\Screenshots\graph.png
+![Alt text](https://github.com/Aakash-insights/Text-to-Neo4j-Graph/blob/main/graph.png)
 
