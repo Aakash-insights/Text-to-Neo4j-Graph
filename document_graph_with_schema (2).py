@@ -3,8 +3,8 @@ import logging
 from langchain_core.documents import Document
 from langchain_experimental.graph_transformers import LLMGraphTransformer
 from py2neo import Graph, Node, Relationship
-# Replace with your chosen LLM implementation
-from langchain_PLACEHOLDER_LLM import PLACEHOLDER_LLM  # Placeholder for your LLM library
+from langchain_google_genai import GoogleGenerativeAI
+
 
 # Configure logging to capture debug-level messages
 logging.basicConfig(level=logging.DEBUG)
@@ -27,7 +27,7 @@ except Exception as e:
 google_api_key = "YOUR_GOOGLE_API_KEY"  # Placeholder for Google API key (if applicable)
 
 # Initialize LLM model (replace with your specific LLM and configuration)
-llm = PLACEHOLDER_LLM(model="models/PLACEHOLDER_MODEL", google_api_key=google_api_key, temperature=0.1)  # Replace with your LLM details
+llm = PLACEHOLDER_LLM(model="models/text-bison-001", google_api_key=google_api_key, temperature=0.1)  # Replace with your LLM details
 
 # Initialize LLMGraphTransformer with your LLM
 llm_transformer = LLMGraphTransformer(llm=llm)
