@@ -1,0 +1,33 @@
+The process of obtaining an API key depends on the specific Large Language Model (LLM) you choose to use in the text-to-Neo4j graph converter script. Here's a breakdown for two common options:
+
+1. Google Generative AI:
+
+If you decide to use Google Generative AI as your LLM, you'll need to follow these steps:
+
+Set Up a Google Cloud Platform Project:
+
+If you don't have one already, head to https://cloud.google.com/ and create a new Google Cloud Platform project.
+Enable Generative AI API:
+
+Within your project, navigate to the APIs & Services section in the Google Cloud Console.
+Search for "Generative AI" and enable the API.
+Create API Credentials:
+
+In the APIs & Services section, go to Credentials.
+Click "Create Credentials" and select "API key".
+A new API key will be generated. Copy and store it securely (avoid committing it to version control).
+2. Other LLMs:
+
+Many other LLMs offer API access, but the process for obtaining an API key might vary. Here are some general guidelines:
+
+Consult the LLM Provider's Documentation:
+
+Look for the official documentation of the LLM library you intend to use. This documentation should have instructions on how to set up API access and obtain a key.
+Search for keywords like "API access", "getting started", or "authentication" within the documentation.
+Provider Website or Developer Portal:
+
+Many LLM providers have dedicated sections on their websites or developer portals that explain how to obtain API keys. Look for links or sections related to developers or API access.
+Contact LLM Provider Support:
+
+If you're still having trouble finding information about obtaining an API key, consider reaching out to the LLM provider's support channels. They might have dedicated support teams or forums for developers.
+Remember, it's crucial to follow the specific instructions provided by the LLM provider you choose. Some providers might have additional requirements or limitations associated with API access.
