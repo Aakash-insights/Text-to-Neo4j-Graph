@@ -1,0 +1,4 @@
+NEO4J_URI: The URI of your Neo4j instance (e.g., neo4j://localhost:7677).
+NEO4J_USERNAME: Your Neo4j username.
+NEO4J_PASSWORD: Your Neo4j password.
+NEO4J_DATABASE: The name of the Neo4j database you want to use.
